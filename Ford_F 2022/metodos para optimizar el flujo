@@ -1,0 +1,22 @@
+Metodos para optimizar el flujo de la red
+
+*Primer metodo : se puede incrementar el flujo en un camino (s,x) , solo si el camino
+(x,z) tiene la capacidad para soportar el aumento.
+
+
+
+*Segundo metodo : flujo redirijido(reducido) en un semicamino,para incrementar el flujo total de la red(dirijir el valor de flujo reducido, a otro camino).
+ 
+      3/2
+ [S] ---> [Y] 
+           
+   	       ^	      	
+	         |  2/2 = 2/1 (se reduce en una unidad el flujo)           
+           |	     		
+          [X] ---> [T]
+            4/0 = 4/1
+           
+             	          
+**flujo reducido de X a Y = 2 , [1] (el minimo entre estos valores)
+
+
